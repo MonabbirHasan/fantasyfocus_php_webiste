@@ -1,0 +1,111 @@
+/*
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+/* CSS */
+}
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+/* CSS */
+}
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+/* CSS */
+}
+/*
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* CSS */
+}
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+/* CSS */
+}
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+.movie_slider .item {
+width: auto;
+/* margin: 10px;
+padding: 20px; */
+}
+.movie_slider .movie_thumbnail {
+width: 100% !important;
+}
+.single_movie_details {
+width: 100%;
+height: 100%;
+  display: block!important;
+padding: 30px 0;
+}
+
+.movie_left .single_movie_thumnail {
+padding: 40px;
+transition: .5s;
+/* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+width: 100% !important;
+height: 100%;
+overflow: hidden;
+}
+.s_left .l_thumbnail {
+width: 100% !important;
+}
+.footer_social {
+display: grid !important;
+justify-content: center;
+padding: 0;
+}
+.coming_soon_timer {
+display: none !important;
+}
+.wrapper {
+display: grid !important;
+}
+.banner_content {
+padding: 10px !important;
+}
+.banner_content h1 {
+font-size: 30px !important;
+width: auto !important;
+}
+.watch_video {
+padding: 10px !important;
+}
+.watch_video span {
+font-size: 16px;
+}
+.banner_content .time span {
+font-size: 15px !important;
+padding: 0px !important;
+}
+.l_thumbnail img {
+height: 100% !important;
+}
+.details h1 {
+font-size: 20px !important;
+}
+.details p {
+font-size: 16px !important;
+}
+.s_right .details {
+padding-top: 20px !important;
+}
+.details .tv span {
+font-size: 17px !important;
+}
+}
